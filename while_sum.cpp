@@ -8,9 +8,9 @@ int main() {
 	while (i < n) {
 		scanf("%d", &num);
 		sum = sum + num;   
-		i++;          
+		i = i + 1;          
 	}
 	printf("%d", sum);
-		return 0;
+	return 0;
 }
-		   
+
